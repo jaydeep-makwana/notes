@@ -1,0 +1,25 @@
+=> Set up the environment for the project to run 
+
+ - First install composer :- install composer
+ - To create .env file and remove unnecessary file :- mv .env.example .env
+ - Set the application key :- php artisan key:generate
+
+
+=> Php artisan command
+
+ -> To view all php artisan commands :- php artisan
+
+ -> Migration   
+
+  - To create table :- php artisan make:migration create_table-name_table
+  - NOTE :-  all you have to do is change the name of the table, for example...
+             if we want to create table and its name is employee, 
+             then command is :- php artisan make:migration create_emloyee_table
+
+  - To migrate spacific table :- php artisan migrate --path=basepath 
+    Example :- php artisan migrate --path=database/migrations/2022_05_06_090729_create_employee_table.php
+
+  - Create migration to add column in table :- php artisan make:migration add_columns_to_table-name_table
+
+
+ 
