@@ -22,4 +22,12 @@
   - Create migration to add column in table :- php artisan make:migration add_columns_to_table-name_table
 
 
+=> Install laravelBreeze for Authentication
+
+- composer require laravel/breeze --dev
+- php artisan breeze:install
+
+-> For designing
+-npm install
+-npm run dev
  
